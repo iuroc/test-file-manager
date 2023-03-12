@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件系统 - 鹏优创</title>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <h2>文件系统 - 鹏优创</h2>
+    <button class="last-dir" data-file_id="0">返回上一级</button>
+    <input type="text" class="file_name">
+    <button class="addFile" onclick="addFile(0)">新建文件</button>
+    <button class="addDir" onclick="addFile(1)">新建文件夹</button>
+    <button class="paste" style="display: none;">粘贴</button>
+    <div class="uris"></div>
+    <div class="fileList"></div>
+    <div class="menu"></div>
+</body>
+
+</html>
